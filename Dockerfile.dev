@@ -1,0 +1,9 @@
+FROM node:alpine
+
+WORKDIR /nuxt
+
+COPY . .
+
+RUN npm config set registry https://registry.npmmirror.com/
+
+ENTRYPOINT npm i ; npm run dev ; echo "我们是正面强攻，还是搞点小鸡毛啊？"
