@@ -1,4 +1,4 @@
-echo 正在激活炸弹;
+echo 正在拆除炸弹;
 sudo docker-compose -f docker-compose.dev.yml up -d;
-echo 炸弹已经安放;
+echo 炸弹已经被拆除;
 read
