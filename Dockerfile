@@ -4,13 +4,10 @@ WORKDIR /var/www/osa
 
 COPY . .
 
-RUN npm config set registry https://registry.npmmirror.com/
-
-RUN npm i
-
-RUN npm run build
-
-RUN rm -rf node_modules && \
+RUN npm config set registry https://registry.npmmirror.com/ \
+ && npm i \
+ && npm run build \
+ && rm -rf node_modules && \
   NODE_ENV=production npm install \
   --prefer-offline \
   --pure-lockfile \

@@ -23,5 +23,6 @@
 **/nginx
 **/build.sh
 **/dev.sh
+**/.DS_Store
 LICENSE
 README.md
