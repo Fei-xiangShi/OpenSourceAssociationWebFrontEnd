@@ -9,15 +9,25 @@
     "preview": "nuxt preview",
     "prepare": "nuxt prepare"
   },
-  "devDependencies": { 
+  "devDependencies": {
+    "@nuxtjs/color-mode": "^3.3.2",
+    "@nuxtjs/eslint-module": "^4.1.0",
+    "@nuxtjs/i18n": "^8.0.1",
+    "eslint": "^8.56.0",
     "nuxt": "^3.9.1",
+    "nuxt-icon": "^0.6.8",
+    "sass": "^1.70.0",
+    "sass-loader": "^14.1.0",
     "vue": "^3.4.10",
     "vue-router": "^4.2.5"
   },
   "dependencies": {
-    "unhead": "^1.8.10",
+    "@nuxt/ui": "^2.13.0",
+    "@pinia/nuxt": "^0.5.1",
     "@types/three": "^0.160.0",
-    "three": "^0.160.0"
+    "gsap": "^3.12.5",
+    "pinia": "^2.1.7",
+    "unhead": "^1.8.10"
   },
   "config": {
     "nuxt": {

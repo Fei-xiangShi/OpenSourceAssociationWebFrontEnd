@@ -24,4 +24,10 @@ export default defineNuxtConfig({
       viewport: 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no',
     }
   },
+  modules: [
+    '@pinia/nuxt',
+    '@nuxtjs/eslint-module',
+    '@nuxtjs/i18n',
+    '@nuxtjs/color-mode',
+  ],
 })
