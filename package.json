@@ -10,12 +10,11 @@
     "prepare": "nuxt prepare"
   },
   "devDependencies": {
+    "@nuxt/eslint-config": "^0.2.0",
     "@nuxtjs/color-mode": "^3.3.2",
-    "@nuxtjs/eslint-module": "^4.1.0",
     "@nuxtjs/i18n": "^8.0.1",
     "eslint": "^8.56.0",
     "nuxt": "^3.9.1",
-    "nuxt-icon": "^0.6.8",
     "sass": "^1.70.0",
     "sass-loader": "^14.1.0",
     "vue": "^3.4.10",
