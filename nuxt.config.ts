@@ -30,4 +30,5 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
     '@nuxtjs/color-mode',
   ],
+  extends: ['@nuxt/ui-pro'],
 })

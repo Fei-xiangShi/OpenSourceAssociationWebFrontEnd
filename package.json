@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "@nuxt/ui": "^2.13.0",
+    "@nuxt/ui-pro": "^0.7.5",
     "@pinia/nuxt": "^0.5.1",
     "@types/three": "^0.160.0",
     "gsap": "^3.12.5",
