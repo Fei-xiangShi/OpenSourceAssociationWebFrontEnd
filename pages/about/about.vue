@@ -1,8 +1,5 @@
 <template>
     <view>
         <h1>Hello Nuxt! Hello World!</h1>
-        <view>
-            <a href="/about">123</a>
-        </view>
     </view>
 </template>
